@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 2af3db4dbc744614bb3884e8968f5459
+  m_CachedHash:
+    serializedVersion: 2
+    Hash: ad8444dd54bed10bbd5b5dea4e3de7a1
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 1
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 64bba9861aba32a42a067d0534dcca50
+  m_RemoteCatalogLoadPath:
+    m_Id: 41f9f440af7e97f4d8b4a0953e53f409
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: e212d9cb4986cd947b7c634add3285ca, type: 2}
+  - {fileID: 11400000, guid: 205ae4850e16a544fb9332f177454f97, type: 2}
+  - {fileID: 11400000, guid: c7f73fada152e184dbfb3238fb9e643a, type: 2}
+  - {fileID: 11400000, guid: a7fffa8e10b24664f8e685cb42b25066, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 82ba03fab0ec1f04d829dcd3775ab79c
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 9bd529dba0a8fbb45bbc936873e0956c
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 2c5f749d863ec6d4ea2393f53a856a68
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: d42633a63cd073a4fb3cd7e2228f8b19
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 64bba9861aba32a42a067d0534dcca50
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 41f9f440af7e97f4d8b4a0953e53f409
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: 125edde679e214b41b6de1214ec77cbb
+      m_ProfileName: web
+      m_Values:
+      - m_Id: 9bd529dba0a8fbb45bbc936873e0956c
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 2c5f749d863ec6d4ea2393f53a856a68
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: d42633a63cd073a4fb3cd7e2228f8b19
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 64bba9861aba32a42a067d0534dcca50
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 41f9f440af7e97f4d8b4a0953e53f409
+        m_Value: https://dzm-cdn-online.dskystudio.com/h5game/xgsjh
+    - m_InheritedParent: 
+      m_Id: f6c94ff1b26dcd34ca41776f50d84b76
+      m_ProfileName: webgl
+      m_Values:
+      - m_Id: 9bd529dba0a8fbb45bbc936873e0956c
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 2c5f749d863ec6d4ea2393f53a856a68
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: d42633a63cd073a4fb3cd7e2228f8b19
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 64bba9861aba32a42a067d0534dcca50
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 41f9f440af7e97f4d8b4a0953e53f409
+        m_Value: https://dzm-cdn-online.dskystudio.com/h5game/xgsjh/webgl
+    m_ProfileEntryNames:
+    - m_Id: 9bd529dba0a8fbb45bbc936873e0956c
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 2c5f749d863ec6d4ea2393f53a856a68
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: d42633a63cd073a4fb3cd7e2228f8b19
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 64bba9861aba32a42a067d0534dcca50
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 41f9f440af7e97f4d8b4a0953e53f409
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: af38d1105c43adf42a58881655a84c9a, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 7ce19d784ea988b4896c14be65e92983, type: 2}
+  - {fileID: 11400000, guid: 3d309fca4e4f7964397667fc241c670b, type: 2}
+  - {fileID: 11400000, guid: d992a74e2eb7cd449b94b64f36e6abb5, type: 2}
+  - {fileID: 11400000, guid: 6049dcac70c131343922e538d4c1713a, type: 2}
+  m_ActiveProfileId: 82ba03fab0ec1f04d829dcd3775ab79c
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []

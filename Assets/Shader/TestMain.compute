@@ -1,0 +1,16 @@
+#pragma kernel TestMain
+
+Texture2D inTex; //input texture
+RWTexture2D<float4> outTex; //output texture
+
+[numthreads(8,8,1)]
+void TestMain(uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+    float r = inTex[id.xy].r * 0.299;
+    float g = inTex[id.xy].g * 0.587;
+    float b = inTex[id.xy].b * 0.114;
+    
+    float result = r + g + b;
+    outTex[id.xy] = float4(result, result, result, 1);
+}
